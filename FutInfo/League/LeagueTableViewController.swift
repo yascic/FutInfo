@@ -20,6 +20,7 @@ class LeagueTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+//        tableView.separatorInset = UIEdgeInsets(top: 0, left: 136, bottom: 0, right: 0)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
