@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Ligue1_Uber_Eats_logo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

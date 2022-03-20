@@ -13,6 +13,7 @@
 		D46A98F827E7AB390060F8C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46A98F627E7AB390060F8C0 /* Main.storyboard */; };
 		D46A98FA27E7AB410060F8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46A98F927E7AB410060F8C0 /* Assets.xcassets */; };
 		D46A98FD27E7AB410060F8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46A98FB27E7AB410060F8C0 /* LaunchScreen.storyboard */; };
+		D4A5297F27E7B23600F6E35A /* League Logo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A5297E27E7B23600F6E35A /* League Logo.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D46A98F927E7AB410060F8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D46A98FC27E7AB410060F8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D46A98FE27E7AB410060F8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A5297E27E7B23600F6E35A /* League Logo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "League Logo.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D46A98F427E7AB390060F8C0 /* ViewController.swift */,
 				D46A98F627E7AB390060F8C0 /* Main.storyboard */,
 				D46A98F927E7AB410060F8C0 /* Assets.xcassets */,
+				D4A5297E27E7B23600F6E35A /* League Logo.xcassets */,
 				D46A98FB27E7AB410060F8C0 /* LaunchScreen.storyboard */,
 				D46A98FE27E7AB410060F8C0 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A5297F27E7B23600F6E35A /* League Logo.xcassets in Resources */,
 				D46A98FD27E7AB410060F8C0 /* LaunchScreen.storyboard in Resources */,
 				D46A98FA27E7AB410060F8C0 /* Assets.xcassets in Resources */,
 				D46A98F827E7AB390060F8C0 /* Main.storyboard in Resources */,

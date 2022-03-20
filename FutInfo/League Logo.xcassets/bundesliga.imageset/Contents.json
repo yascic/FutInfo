@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "bundesliga-logo-1100x825.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
