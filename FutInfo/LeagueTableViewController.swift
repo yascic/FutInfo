@@ -8,6 +8,14 @@
 import UIKit
 
 class LeagueTableViewController: UITableViewController {
+    
+    let leagues: [League] = [
+        League(logo: UIImage(named: "bundesliga"), name: "Bundesliga"),
+        League(logo: UIImage(named: "la-liga-santander"), name: "LA Liga Santander"),
+        League(logo: UIImage(named: "premier-league"), name: "Premier League"),
+        League(logo: UIImage(named: "ligue-1"), name: "Ligue 1"),
+        League(logo: UIImage(named: "serie-a"), name: "Serie A")
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +36,7 @@ class LeagueTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        return leagues.count
     }
 
     /*
