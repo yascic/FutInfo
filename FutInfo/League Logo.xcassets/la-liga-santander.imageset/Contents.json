@@ -3,6 +3,16 @@
     {
       "filename" : "LaLiga.svg.png",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "LaLiga-new-website-logo.png",
+      "idiom" : "universal"
     }
   ],
   "info" : {
