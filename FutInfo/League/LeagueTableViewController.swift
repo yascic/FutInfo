@@ -11,7 +11,7 @@ class LeagueTableViewController: UITableViewController {
     
     let leagues: [League] = [
         League(logo: UIImage(named: "bundesliga"), name: "Bundesliga"),
-        League(logo: UIImage(named: "la-liga-santander"), name: "LA Liga Santander"),
+        League(logo: UIImage(named: "la-liga-santander"), name: "La Liga Santander"),
         League(logo: UIImage(named: "premier-league"), name: "Premier League"),
         League(logo: UIImage(named: "ligue-1"), name: "Ligue 1"),
         League(logo: UIImage(named: "serie-a"), name: "Serie A")
@@ -31,7 +31,7 @@ class LeagueTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,15 +39,22 @@ class LeagueTableViewController: UITableViewController {
         return leagues.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "leagueCell", for: indexPath) as! LeagueTableViewCell
 
-        // Configure the cell...
+        cell.logoImageView.image = leagues[indexPath.row].logo
+        cell.leagueNameLabel.text = leagues[indexPath.row].name
 
         return cell
     }
-    */
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Top 5 Ligen"
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath.row, animated: true)
+    }
 
     /*
     // Override to support conditional editing of the table view.
