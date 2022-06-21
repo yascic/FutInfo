@@ -3,6 +3,16 @@
     {
       "filename" : "Premier_League_Logo.svg.png",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "51-516917_premier-league-logo-white.png",
+      "idiom" : "universal"
     }
   ],
   "info" : {

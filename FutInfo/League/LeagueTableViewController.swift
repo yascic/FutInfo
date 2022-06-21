@@ -9,14 +9,8 @@ import UIKit
 
 class LeagueTableViewController: UITableViewController {
     
-    let leagues: [League] = [
-        League(logo: UIImage(named: "bundesliga"), name: "Bundesliga"),
-        League(logo: UIImage(named: "la-liga-santander"), name: "La Liga Santander"),
-        League(logo: UIImage(named: "premier-league"), name: "Premier League"),
-        League(logo: UIImage(named: "ligue-1"), name: "Ligue 1"),
-        League(logo: UIImage(named: "serie-a"), name: "Serie A")
-    ]
-
+    let leagues: [League] = League.topFive
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -49,12 +43,15 @@ class LeagueTableViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Top 5 Ligen"
-    }
+//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section:  Int) -> String? {
+//        return "Leagues"
+//    }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
+//        tableView.deselectRow(at: indexPath, animated: true)
+        let standingsTableView = storyboard?.instantiateViewController(withIdentifier: "standingVC") as! StandingTableViewController
+        standingsTableView.league = leagues[indexPath.row]
+        navigationController?.pushViewController(standingsTableView, animated: true)
     }
 
     /*

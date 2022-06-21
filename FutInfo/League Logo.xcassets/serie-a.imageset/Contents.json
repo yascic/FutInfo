@@ -1,7 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Serie_A_Logo.png",
+      "filename" : "Serie_A_2019.png",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "IT1 dark.png",
       "idiom" : "universal"
     }
   ],

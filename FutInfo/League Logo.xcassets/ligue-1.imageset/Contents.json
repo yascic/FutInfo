@@ -1,7 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Ligue1_Uber_Eats_logo.png",
+      "filename" : "1200px-Ligue1.svg.png",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "1200px-Ligue1.svg dark.png",
       "idiom" : "universal"
     }
   ],

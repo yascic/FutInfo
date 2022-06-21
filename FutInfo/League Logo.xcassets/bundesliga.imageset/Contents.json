@@ -1,7 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "bundesliga-logo-1100x825.png",
+      "filename" : "Bundesliga_logo_(2017).png",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "Bundesliga_logo_(2017) dark.png",
       "idiom" : "universal"
     }
   ],
